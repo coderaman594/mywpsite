@@ -1,0 +1,281 @@
+/*
+Theme Name: My Custom theme
+Theme URI: https://wordpress.org/themes/twentytwentyone/
+Author: Aman Suryawanshi
+Author URI: https://wordpress.org/
+Description: My Custom theme is a basic theme
+Requires at least: 5.3
+Tested up to: 5.8
+Requires PHP: 5.6
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* End Reset CSS Rules*/
+body {
+    background-color: silver;
+    font-size: 16px;
+    font-family: arial;
+    line-height: 1.6em;
+    color: #666;
+}
+p {
+    margin: 10px, 0;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+ul,
+ol {
+    padding: 10px 0 10px 10px;
+    list-style: square;
+}
+ul li,
+ol li {
+    line-height: 1.8em;
+    color: #000;
+}
+
+h1 {
+    font-size: 26px;
+    padding-bottom: 8px;
+}
+h2 {
+    font-size: 22px;
+    color: #666;
+    padding-bottom: 8px 0 8px 0;
+}
+h3 {
+    font-size: 18px;
+    color: #666;
+    padding-bottom: 8px 0 8px 0;
+}
+
+img {
+    margin: 15px;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    border: #ccc solid 1px;
+    overflow: auto;
+    background: #fff;
+    padding: 20px 15px;
+}
+
+header {
+    height: 17px;
+}
+header #search {
+    float: right;
+    width: 310px;
+    padding-top: 14px;
+    list-style: none !important;
+}
+header h1 {
+    padding: 15px 10px;
+    float: left;
+    width: 400px;
+}
+header h1 span {
+    font-size: 12px;
+    color: brown;
+}
+
+nav.main {
+    height: 35px;
+    padding-top: 15px;
+    background: #333;
+    overflow: none;
+    margin-bottom: 10px;
+}
+
+nav.main ul {
+    padding: 0;
+}
+
+nav.main ul li {
+    float: left;
+    padding: 0 10x 0 10px;
+    list-style: none;
+    font-size: 16px;
+}
+
+nav.main a {
+    padding: 18px;
+    margin: auto;
+    color: #fff;
+}
+
+#main {
+    float: left;
+    width: 60%;
+    overflow: auto;
+}
+
+#main .post {
+    padding: 20px 0 20px 0;
+    border-bottom: 1px #ccc dashed;
+    overflow: auto;
+}
+
+#main .post a.more-link {
+    color: #074b77;
+    display: block;
+    margin-top: 5px;
+}
+.meta {
+    padding: 3px 5px;
+    background: #f4f4f4;
+    width: 95%;
+}
+
+#sidebar {
+    float: right;
+    width: 35%;
+    overflow: auto;
+    background: #f4f4f4;
+    padding: 10px 15px;
+}
+
+#sidebar {
+    list-style-type: none !important;
+}
+
+#sidebar ul {
+    padding-left: 10px;
+}
